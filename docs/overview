@@ -1,0 +1,4 @@
+├── docs/                    # Documentation folder
+│   ├── circuit_diagram.md   # Placeholder for circuit diagram
+│   ├── inverse_kinematics.md # Math/design notes
+│   └── pid_tuning.md        # PID tuning process
