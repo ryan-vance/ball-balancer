@@ -8,13 +8,13 @@ The ball balancer is a complex mechatronic system that integrates mechanical har
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Ball Balancing System                     │
-│                                                              │
-│  ┌──────────────┐      ┌──────────────┐      ┌───────────┐ │
-│  │  Touchscreen │─────▶│   Arduino    │─────▶│  Motors   │ │
-│  │    Sensor    │      │   Mega 2560  │      │  + Drivers│ │
-│  │  (Position)  │      │              │      │           │ │
-│  └──────────────┘      └──────────────┘      └───────────┘ │
+│                    Ball Balancing System                    │
+│                                                             │
+│  ┌──────────────┐      ┌──────────────┐      ┌───────────┐  │
+│  │  Touchscreen │────▶│     Teensy    |────▶│   Motors  │  │
+│  │    Sensor    │      │      4.1     |      │ + Drivers │  │
+│  │  (Position)  │      │              │      │           │  │
+│  └──────────────┘      └──────────────┘      └───────────┘  │
 │         │                      │                     │      │
 │         │                      ▼                     │      │
 │         │              ┌──────────────┐              │      │
@@ -28,12 +28,12 @@ The ball balancer is a complex mechatronic system that integrates mechanical har
 │         │              │  Kinematics  │              │      │
 │         │              └──────────────┘              │      │
 │         │                                            │      │
-│         └────────────────────┬────────────────────────┘      │
-│                              ▼                               │
-│                    ┌──────────────────┐                      │
-│                    │  Delta Platform  │                      │
-│                    │   (Mechanical)   │                      │
-│                    └──────────────────┘                      │
+│         └────────────────────┬───────────────────────┘      │
+│                              ▼                              │
+│                    ┌──────────────────┐                     │
+│                    │  Delta Platform  │                     │
+│                    │   (Mechanical)   │                     │
+│                    └──────────────────┘                     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
