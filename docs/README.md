@@ -1,4 +1,4 @@
-# System Integration
+# System Architecture
 
 ## Overview
 
