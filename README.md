@@ -3,7 +3,7 @@
 Autonomous ball-balancing robot using a 3-RRS parallel manipulator controlled by a custom PID algorithm. Achieves real-time position tracking via resistive touchscreen and maintains ball equilibrium through dynamic platform tilting with 3 stepper motors.
 
 ## Overview
-[This project demonstrates the ability to work as team to design, create, and document a project with feedback that highlights concepts from ENGR 373: Linear Control Systems. Scope, specifications, and success criteria are to be determined by the students and approved by the advisor]
+This project demonstrates the ability to work as team to design, create, and document a project with feedback that highlights concepts from ENGR 373: Linear Control Systems. Scope, specifications, and success criteria are to be determined by the students and approved by the advisor
 
 ## Hardware Platform
 This project uses the mechanical platform from [Ball-Balancer-V2](https://github.com/aaedmusa/Ball-Balancer-V2) by aaedmusa. We designed and implemented the complete control system, including:
@@ -52,7 +52,7 @@ For hardware specifications, CAD files, and bill of materials, see the [original
 ## Acknowledgments
 - Hardware design: [Ball-Balancer-V2](https://github.com/aaedmusa/Ball-Balancer-V2)
 - Course: ENGR 373 - Linear Control Systems, Western Illinois University
-- Advisor: [Il-Seop Shin]
+- Advisor: Il-Seop Shin
 
 ## License
 Our control system code is licensed under the MIT License - see LICENSE file.
