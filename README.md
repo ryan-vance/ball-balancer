@@ -3,7 +3,7 @@
 Autonomous ball-balancing robot using a 3-RRS parallel manipulator controlled by a custom PID algorithm. Achieves real-time position tracking via resistive touchscreen and maintains ball equilibrium through dynamic platform tilting with 3 stepper motors.
 
 ## Overview
-[Your description of what the project does]
+[This project demonstrates the ability to work as team to design, create, and document a project with feedback that highlights concepts from ENGR 373: Linear Control Systems. Scope, specifications, and success criteria are to be determined by the students and approved by the advisor]
 
 ## Hardware Platform
 This project uses the mechanical platform from [Ball-Balancer-V2](https://github.com/aaedmusa/Ball-Balancer-V2) by aaedmusa. We designed and implemented the complete control system, including:
@@ -16,7 +16,15 @@ This project uses the mechanical platform from [Ball-Balancer-V2](https://github
 For hardware specifications, CAD files, and bill of materials, see the [original repository](https://github.com/aaedmusa/Ball-Balancer-V2).
 
 ## Our Implementation
-[What YOUR team actually built]
+- Complete control system architecture - all the software and code to accomplish the course objectives
+- Miss detection logic - abnormal false readings on the touchscreen removed instead before being fed into the PID loop for further system smoothing
+- Movement patterns
+- PID controller - designed, tund, and implemented from scratch
+- Inverse kinematics calculations = Derived and coded the math for the delta RRS robot
+- System integration
+-   Touchscreen calibration
+-   Motor driver tuning
+-   System power requirements
 
 ## Features
 - Real-time ball position tracking via resistive touchscreen
@@ -27,16 +35,13 @@ For hardware specifications, CAD files, and bill of materials, see the [original
 - Pattern generation (line, triangle, polygon trajectories)
 
 ## How It Works
-[Your system architecture explanation]
+[Code architecture explanation](https://github.com/ryan-vance/ball-balancer/tree/main/docs).
 
 ## Demo
 [YOUR photos and videos]
 
-## Code Architecture
-[Explanation of YOUR code structure]
-
 ## PID Tuning Process
-[How YOU tuned the system]
+[How YOU tuned the system](https://github.com/ryan-vance/ball-balancer/blob/main/docs/PID%20tuning.md).
 
 ## Team
 - Noah Seys
@@ -47,7 +52,7 @@ For hardware specifications, CAD files, and bill of materials, see the [original
 ## Acknowledgments
 - Hardware design: [Ball-Balancer-V2](https://github.com/aaedmusa/Ball-Balancer-V2)
 - Course: ENGR 373 - Linear Control Systems, Western Illinois University
-- Advisor: [Professor name if applicable]
+- Advisor: [Il-Seop Shin]
 
 ## License
 Our control system code is licensed under the MIT License - see LICENSE file.
