@@ -37,52 +37,6 @@ The ball balancer is a complex mechatronic system that integrates mechanical har
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## Hardware Components
-
-### 1. Microcontroller
-- **Part**: Arduino Mega 2560
-- **Role**: Central processing unit
-- **Functions**:
-  - Read touchscreen sensor
-  - Execute PID control loop
-  - Calculate inverse kinematics
-  - Drive stepper motors
-  - Manage timing and synchronization
-
-### 2. Position Sensor
-- **Part**: 4-wire resistive touchscreen
-- **Role**: Ball position detection
-- **Connections**:
-  - Pin 38: X Ground
-  - Pin 39: Y 5V
-  - Pin 40: X 5V
-  - Pin 41: Y Ground
-- **Operation**:
-  - Detects pressure from ball weight
-  - Returns X/Y coordinates (0-1023 range)
-  - ~50Hz sampling rate
-
-### 3. Motor System
-- **Motors**: 3× NEMA 17 stepper motors
-- **Drivers**: 3× A4988 stepper drivers
-- **Configuration**:
-  - 1600 steps per revolution (1/8 microstepping)
-  - 12V power supply
-  - Enable pin: Pin 10
-  - Motor 1: Step=4, Dir=5
-  - Motor 2: Step=6, Dir=7
-  - Motor 3: Step=8, Dir=9
-
-### 4. Mechanical Platform
-- **Design**: 3-RRS parallel manipulator (delta robot)
-- **Source**: [Ball-Balancer-V2 CAD files](https://github.com/aaedmusa/Ball-Balancer-V2)
-- **Materials**: 3D printed ABS/PLA components
-- **Dimensions**:
-  - Base radius: 2.0 inches
-  - Platform radius: 3.125 inches
-  - Lower arm: 1.75 inches
-  - Upper arm: 3.67 inches
-
 ## Software Architecture
 
 ### Main Control Loop
@@ -218,7 +172,7 @@ while (millis() - startTime < 20) {
 }
 ```
 
-**Why 20ms (50Hz)?**
+**Why 20ms (50Hz)**
 - Fast enough to respond to ball movement
 - Slow enough for reliable touchscreen readings
 - Matches common control system frequencies
