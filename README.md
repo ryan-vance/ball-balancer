@@ -88,7 +88,9 @@ For detailed implementation, see our [System Integration Documentation](docs/REA
 
 ## Demo
 
-[Add photos and videos here]
+Click the link to view the [Demonstration](https://youtube.com/shorts/-RZ6nNGylSo?feature=share) of the project in action.
+
+Additional photos and videos can be found [here]().
 
 ## PID Tuning Process
 
