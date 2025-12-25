@@ -99,6 +99,10 @@ Additional photos and videos can be found [here]().
 
 [How the system was tuned](https://github.com/ryan-vance/ball-balancer/blob/main/docs/PID%20tuning.md)
 
+The following image shows the PID process within our system
+<img width="2370" height="1218" alt="image" src="https://github.com/user-attachments/assets/4ff57d5e-0e63-434e-bcc3-6158a239e88c" />
+
+
 ## Team
 
 - Noah Seys
