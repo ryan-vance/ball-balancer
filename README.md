@@ -52,7 +52,13 @@ For hardware specifications, CAD files, and bill of materials, see the [original
 
 Check out this [flowcahrt](https://github.com/ryan-vance/ball-balancer/blob/main/docs/ENGR%20373%20Flow%20Chart.png) to see the system process.
 
-The [system architecture](https://github.com/ryan-vance/ball-balancer/tree/main/docs) page explains the process and breaks down some of the code.
+**Key Steps:**
+1. **Detection**: Resistive touchscreen reads ball position
+2. **Control**: PID algorithm calculates required platform tilt
+3. **Kinematics**: Inverse kinematics converts tilt angles to motor positions
+4. **Actuation**: Stepper motors move to calculated positions
+
+For detailed implementation, see our [System Integration Documentation](docs/README.md).
 
 ## Demo
 
