@@ -50,7 +50,9 @@ For hardware specifications, CAD files, and bill of materials, see the [original
 
 ## How It Works
 
-[Code architecture explanation](https://github.com/ryan-vance/ball-balancer/tree/main/docs)
+Check out this [flowcahrt](https://github.com/ryan-vance/ball-balancer/blob/main/docs/ENGR%20373%20Flow%20Chart.png) to see the system process.
+
+The [system architecture](https://github.com/ryan-vance/ball-balancer/tree/main/docs) page explains the process and breaks down some of the code.
 
 ## Demo
 
