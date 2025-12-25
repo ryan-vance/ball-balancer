@@ -42,6 +42,8 @@ The ball-balancing robot successfully met all established project requirements, 
 - **Repeatability**: Consistent convergence to target position regardless of initial ball placement, maintained across all startup cycles
 - **Stability**: Refined PID tuning achieves rapid response times with minimal overshoot, preventing ball ejection from the platform
 
+<img width="927" height="751" alt="image" src="https://github.com/user-attachments/assets/71b7e0d6-b77b-4da6-aadd-3fbcdc68c043" />
+
 ## Hardware Platform
 
 This project uses the mechanical platform from [Ball-Balancer-V2](https://github.com/aaedmusa/Ball-Balancer-V2) by aaedmusa. We designed and implemented the complete control system, including:
@@ -76,7 +78,8 @@ For hardware specifications, CAD files, and bill of materials, see the [original
 
 ## How It Works
 
-Check out the [Flowcahrt](https://github.com/ryan-vance/ball-balancer/blob/main/docs/ENGR%20373%20Flow%20Chart.png) to see the system process.
+Check out the [Flowchart](https://github.com/ryan-vance/ball-balancer/blob/main/docs/ENGR%20373%20Flow%20Chart.png) to see the system process.
+
 
 **Key Steps:**
 1. **Detection**: Resistive touchscreen reads ball position
