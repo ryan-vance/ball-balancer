@@ -6,6 +6,32 @@ Autonomous ball-balancing robot using a 3-RRS parallel manipulator controlled by
 
 This project demonstrates the ability to work as a team to design, create, and document a project that highlights concepts from ENGR 373: Linear Control Systems. Scope, specifications, and success criteria were determined by the students and approved by the advisor.
 
+## Project Scope & Specifications
+
+### Requirements
+
+Our team established three core requirements for this project:
+
+**Functionality**
+- Balance the ball at desired origin
+- Gather real-time data on ball position
+- Use feedback control to tilt platform accordingly
+
+**Repeatability**
+- Reliably move the ball to target positions
+- Maintain consistent performance across multiple trials
+
+**Learning Objectives**
+- Gain hands-on experience with control systems
+- Implement feedback controller from theory to practice
+- Integrate mechanical, electrical, and software components
+
+### Success Criteria
+
+- ✓ Reliably move ball to desired location, regardless of initial placement
+- ✓ Professional integration allowing for efficiency, functionality, and ease of use
+- ✓ Fast response with minimal overshoot - no accidental ball ejection
+
 ## Evaluation
 
 The ball-balancing robot successfully met all established project requirements, demonstrating a professional integration of hardware, software, and linear control theory. The system was evaluated based on functionality, repeatability, and construction quality.
@@ -50,7 +76,7 @@ For hardware specifications, CAD files, and bill of materials, see the [original
 
 ## How It Works
 
-Check out this [flowcahrt](https://github.com/ryan-vance/ball-balancer/blob/main/docs/ENGR%20373%20Flow%20Chart.png) to see the system process.
+Check out the [Flowcahrt](https://github.com/ryan-vance/ball-balancer/blob/main/docs/ENGR%20373%20Flow%20Chart.png) to see the system process.
 
 **Key Steps:**
 1. **Detection**: Resistive touchscreen reads ball position
